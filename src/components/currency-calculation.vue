@@ -75,6 +75,9 @@ export default {
 .currency {
   display: flex;
   flex-direction: column;
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
   &__input {
     border: 1px solid #C9C9C9;
     border-radius: 6px;

@@ -56,6 +56,9 @@ export default {
     align-items: center;
   }
   &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 70px;
     height: 46px;
     background: rgba(223, 223, 223, 0.7);
